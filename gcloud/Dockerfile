@@ -3,6 +3,7 @@ FROM alpine
 RUN apk add --no-cache \
     curl \
     bash \
+    less \
     python
 
 RUN adduser gcloud -D
